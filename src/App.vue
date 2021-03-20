@@ -49,13 +49,13 @@ export default {
         id: 2,
         text: 'Meeting at School',
         day: 'March 3rd at 1:30pm',
-        reminder: false,
+        reminder: true,
       },
       {
         id: 3,
         text: 'Food Shopping',
         day: 'March 3rd at 11:00am',
-        reminder: true,
+        reminder: false,
       },
     ]
   },
