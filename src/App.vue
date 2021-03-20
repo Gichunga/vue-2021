@@ -34,6 +34,7 @@ export default {
       // filter is a higher order array method
     },
     toggleReminder(id){
+      // Toggle the value of reminder
       this.tasks =this.tasks.map((task) => task.id === id ? {...task, reminder: !task.reminder} : task)
     }
   },
