@@ -1,6 +1,6 @@
 # vuetro-2021
 
-## Project setup
+### Project setup
 ```
 npm install
 ```
