@@ -1,22 +1,16 @@
 {
-    "tasks":[
-        {
-            "id": 1,
-            "text": "Doctor's Appointment'",
-            "day": "March 1st at 2:30pm'",
-            "reminder": true
-          },
-          {
-            "id": 2,
-            "text": "Meeting at School library'",
-            "day": "March 3rd at 1:30pm'",
-            "reminder": true
-          },
-          {
-            "id": 3,
-            "text": "Food Shopping",
-            "day": "March 4th at 2:00pm'",
-            "reminder": false
-          } 
-    ]
+  "tasks": [
+    {
+      "text": "Go to the dentist",
+      "day": "April 28th at 3:00pm",
+      "reminder": true,
+      "id": 4490
+    },
+    {
+      "text": "Visit my brother",
+      "day": "April 29th at 3:00pm",
+      "reminder": true,
+      "id": 4491
+    }
+  ]
 }
