@@ -4,7 +4,7 @@
 
        <!-- You pass the props from the parent compontnt to the child component -->
        <!-- Then the child component will validate the type of the component being passed -->
-       <Button :text="showForm ? 'Close' : 'Add Task'" :color="showForm ? 'red' : 'green'" @button-clck="$emit('toggle-add-task')"/> 
+       <Button v-show="homePageButton" :text="showForm ? 'Close' : 'Add Task'" :color="showForm ? 'red' : 'green'" @button-clck="$emit('toggle-add-task')"/> 
     </header>
 </template>
 
@@ -23,7 +23,16 @@ export default {
             type: String,
         },
         showForm: Boolean,
-    }
+    },
+    computed: {
+        homePageButton() {
+            if(this.$route.path === '/'){
+                return true
+            }else{
+                return false
+            }
+        }
+    },
 }
 </script>
 
